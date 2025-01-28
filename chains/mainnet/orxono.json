@@ -7,17 +7,23 @@
     "rpc": [
         {"provider": "orxono", "address": "http://localhost:26657"}
     ],
-    "snapshot_provider": "",
-    "sdk_version": "v0.50.2",
+    "sdk_version": "0.46.1",
     "coin_type": "118",
-    "min_tx_fee": "0",
+    "min_tx_fee": "800",
     "addr_prefix": "orxono",
-    "logo": "/logos/nolus.svg",
+    "logo": "/logos/osmosis.jpg",
+    "theme_color": "#812cd6",
     "assets": [{
-        "base": "uorxo",
+        "base": "orxo",
         "symbol": "ORXO",
-        "exponent": "6",
-        "coingecko_id": "orxo",
-        "logo": "/logos/nolus.svg"
+        "exponent": "1",
+        "coingecko_id": "orxo", 
+        "logo": "/logos/osmosis.jpg"
+    },{
+        "base": "aoxc",
+        "symbol": "AOXC",
+        "exponent": "1",
+        "coingecko_id": "aoxc", 
+        "logo": "/logos/osmosis.jpg"
     }]
 }
